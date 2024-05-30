@@ -1,0 +1,133 @@
+
+section{
+    width: 100%;
+    padding: 10px;
+    min-height:calc(100vh - 80px);
+}
+
+section .form_data{
+    max-width: 550px;
+    margin: 25px auto;
+    padding: 35px 10px;
+    box-shadow: 0 0 15px -10px #460404;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_data h1{
+    font-size: 34px;
+    color: #670e0e;
+}
+
+.form_data p{
+    color: #4a0413;
+    font-size: 15px;
+    margin-top:9px;
+}
+
+.form_data form{
+    margin-top: 45px;
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.form_data form .form_input input{
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #4f0606;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 14px;
+    margin-top: 9px;
+    font-size: 14px;
+    
+}
+
+.form_data form .form_input label{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form_input .two{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form_data form .form_input input:focus{
+    border:2px solid rgba(82, 6, 6, 0.6);
+}
+
+
+.form_data form .form_input input::placeholder{
+    color: #4e0510;
+    letter-spacing: .5px;
+    font-size: 14px;
+}
+
+.form_input .showpass{
+    position: absolute;
+    right: 0;
+    top:1px;
+    padding: 7px 10px;
+    margin-right: 5px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #4d080d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form .btn{
+    display:block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color:#580c12;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .3s;
+    
+}
+
+
+form .btn:hover{
+    background-color: #04108c;
+}
+
+.form_data form p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form_data form a{
+    text-decoration: none;
+    color:#470612 ;
+    border-bottom: 2px solid #8694a8;
+}
+nav{
+   border-bottom: 2px solid rgb(204, 197, 197);
+}
+
+#url-short{
+   border: 2px solid rgb(151, 148, 148);
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #bdb8b8;
+    color: black;
+}
